@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/electronic.css" />
+		 <script type="text/javascript">
+window.onload=function()
+{
+	//获取要选取的复选框对象集合和要点击的复选框对象
+ var checkboxs=document.getElementsByName("myHove"+"rTreechk");
+ var hvtck=document.getElementById("hvtck");
+ //获取要选取复选框的数量:
+ cklen=checkboxs.length;
+ //为hvtck对象绑定onclick事件处理函数
+ hvtck.onclick=function()
+ {
+ 	//事件处理函数事先判断hvtck对象是否被选中，如果被选中的话，则遍历复选框，挨个取消选中状态
+ if(this.checked==true)
+ {
+  for(var i=0;i<cklen;i++)
+  {
+  checkboxs[i].checked=true;
+  }
+  document.getElementById("dohovert"+"ree").innerHTML="取消"
+ }
+ else
+ {
+  for(var i=0;i<cklen;i++)
+  {
+  checkboxs[i].checked=false;
+  }
+  document.getElementById("dohovertree").innerHTML="全选"
+ }
+ }
+}
+ </script>
+	</head>
+	<body>
+		<div>
+			<iframe  frameborder="0" scrolling="0" src="top.html" width="100%" height="100%"></iframe>
+		</div>
+		
+		<div class="electr_main">
+			<img src="img/images/catlist_bg.gif" />
+			<div class="electr_list_ul">
+			<ul class="font_li">
+				<li class="all_checked"> <input type="checkbox" id="hvtck" /><span class="dohovertree" id="dohovertree">全选</span></li>
+				<li>商品图片</li>
+				<li>商品名称/出售者/联系方式/</li>
+				<li>价格</li>
+			</ul><br/><br />
+			<div class="list_main">
+			<ul>
+				<li  class="input_li"><input type="checkbox" name="myHoverTreechk" value=""/></li>
+				<li><a href="lenovo_buy.html"><img src="img/images/list1.jpg"/></a></li>
+				<li  class="last_li">家庭必备<br/>出售者：liling235<br/><img src="img/images/contactme.gif"/><img src="img/images/addfav.gif"/></li>
+				<li class="last_li">一口价<br/>￥2833.0</li>
+			</ul>
+			<ul>
+				<li class="input_li"><input type="checkbox" name="myHoverTreechk" value="" /></li>
+				<li><img src="img/images/list2.jpg"/></li>
+				<li>极品显卡<br/>出售者：apsiid536<br/><img src="img/images/contactme.gif"/><img src="img/images/addfav.gif"/></li>
+				<li  class="last_li">一口价<br/>￥2460.0</li>
+			</ul>
+			<ul>
+				<li class="input_li"><input type="checkbox" name="myHoverTreechk" value="" /></li>
+				<li><img src="img/images/list3.jpg"/></li>
+				<li>极品热卖：高清晰，30存等器子电视<br/>出售者：阳光的挣扎<br/><img src="img/images/contactme.gif"/><img src="img/images/addfav.gif"/></li>
+				<li  class="last_li">一口价<br/>￥18880</li>
+			</ul>
+			<ul>
+				<li class="input_li"><input type="checkbox" name="myHoverTreechk" value="" /></li>
+				<li><img src="img/images/list4.jpg"/></li>
+				<li>索尼家用笔记本<br/>出售者：疯狂的镜无<br/><img src="img/images/contactme.gif"/><img src="img/images/addfav.gif"/></li>
+				<li class="last_li">一口价<br/>￥5889.0</li>
+			</ul>
+			</div>
+			</div>
+	   </div>
+		
+		<div>
+			<iframe  frameborder="0" scrolling="0" src="footer.html" width="100%" height="100%"></iframe>
+		</div>
+		
+	</body>
+</html>

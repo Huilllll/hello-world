@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/login_regin.css"/> 
+	</head>
+	<body>
+		<div class="left_login">
+			<from name="from_name" method="post" >
+			<div class="td_1">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</div>
+			<div class="td_1"><input type="name" name="name" value="" /></div><br /><br />
+			<div class="td_1">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;氏：</div>
+			<div class="td_1"><input type="name" name="first_name" value="" /></div><br /><br />
+			<div class="td_1">登&nbsp;录&nbsp;名：&nbsp;</div>
+			<div class="td_1"><input type="name" name="login_name" value="" />(可包含a-z、0-9和下划线)</div><br /><br />
+			<div class="td_1">密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</div>
+			<div class="td_1"><input type="name" name="password" value="" />（至少包含六个字符）</div><br /><br />
+			<div class="td_1">再次密码：</div>
+			<div class="td_1"><input type="name" name="re_password" value="" /></div><br /><br />
+			<div class="td_1">电子邮箱：</div>
+			<div class="td_1"><input type="name" name="email" value="" />（必须含有@字符）</div><br /><br />
+			<div class="td_1">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：</div>
+			<div class="td_1">
+				<input type="radio" name="re_password" value=""  checked="checked"/>
+				<input type="image" src="img/images/Male.gif" alt="男" />男
+				<input type="radio" name="re_password" value="" />
+				<input type="image" src="img/images/Female.gif" alt="女" />女
+			</div><br /><br />
+			<div class="td_1">头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像：</div>
+			<div class="td_1"><input type="file" name="" value=""/></div><br /><br />
+			<div class="td_1">爱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好:&nbsp;&nbsp;</div>
+			<div class="td_1">
+				<input type="checkbox" name="love" value="" checked="checked"/>运动
+				<input type="checkbox" name="love" value="" />聊天
+				<input type="checkbox" name="love" value="" />玩游戏
+			</div><br /><br />
+			<div class="td_1">出生日期：</div>
+			<div class="td_1">
+				<select>
+				<option>1981</option>
+				<option>1982</option>
+				<option>1983</option>
+			</select>年
+			<select>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>月
+			<select>
+				<option>1</option>
+				<option>12</option>
+				<option>13</option>
+			</select>日
+			</div><br /><br />
+			<div class="td_2">
+				<a href="test.html" target="_blank"><input type="image" src="img/images/submit.gif"  alt="提交" width="80px"/></a>
+					<input type="image" src="img/images/reset.gif" alt="重置" width="80px"/>
+			</div><br /><br />
+			</from>
+			<!--<table width="400px" height="10px" cellspacing="15px">
+			<tr>
+			<div class="td_1">姓名：</div>
+			<span><input type="name" name="name" value="" /></span><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">姓氏：</td>
+			<td><input type="name" name="first_name" value="" /></td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">登录名：</td>
+			<td><input type="name" name="login_name" value="" />(可包含a-z、0-9和下划线)</td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">密码：</td>
+			<td><input type="name" name="password" value="" />（至少包含六个字符）</td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">再次密码：</td>
+			<td><input type="name" name="re_password" value="" /></td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">电子邮箱：</td>
+			<td><input type="name" name="email" value="" />（必须含有@字符）</td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">性别：</td>
+			<td><input type="radio" name="re_password" value=""  checked="checked"/>
+			<input type="image" src="img/images/Male.gif" alt="男" />男
+			<input type="radio" name="re_password" value="" />
+			<input type="image" src="img/images/Female.gif" alt="女" />女</td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">头像：</td>
+			<td><input type="file" name="" value=""/></td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">爱好:</td>
+			<td><input type="checkbox" name="love" value="" checked="checked"/>运动
+			<input type="checkbox" name="love" value="" />聊天
+			<input type="checkbox" name="love" value="" />玩游戏</td><br /><br />
+			</tr>
+			<tr>
+			<td  class="td_1">出生日期：</td>
+			<td><select>
+				<option>1981</option>
+				<option>1982</option>
+				<option>1983</option>
+			</select>年
+			<select>
+				<option>8</option>
+				<option>9</option>
+				<option>10</option>
+			</select>月
+			<select>
+				<option>1</option>
+				<option>12</option>
+				<option>13</option>
+			</select>日</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input type="image" src="img/images/submit.gif"  alt="提交" width="80px"/>
+					<input type="image" src="img/images/reset.gif" alt="重置" width="80px"/>
+				</td>
+			</tr>
+			</table>-->
+		</div>
+	</body>
+</html>

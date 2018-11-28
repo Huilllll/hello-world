@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/shoping.css"/>
+		<script src="js/myfocus-2.0.4.min.js"></script>
+		<script type="text/javascript">
+			
+//$("#shop_del").click(function(){
+//		//删除前一行表格
+//		$(this).parent().prev().remove();
+//		//删除当前行表格
+//		$(this).parent().remove();
+//              //重新计算价格
+//		total()
+//	})；	
+ function delDiv(){
+   var divA = document.getElementById("divA");
+   divA.parentNode.removeChild(divA);
+  }
+  function delSpan(){
+   var divA = document.getElementById("divA");
+   divA.innerText = "";
+  }
+
+		</script>
+	</head>
+	<body>
+		<div>
+			<iframe  frameborder="0" scrolling="0" src="top.html" width="100%" height="100%"></iframe>
+		</div>
+		
+		<div class="shopping_cart">
+		<div class="mian">
+		<img src="img/images/mycart.gif" />
+		<span class="top_shoping">全场运费一律2元 &nbsp;&nbsp;&nbsp;简易计算器</span>
+		</div><!--mian结束-->
+		<!--<div class="ture_shop">
+		</div><!--ture_shop确认商品-->
+		<div class="price">
+			<img src="img/images/addfav.gif" />&gt;&gt;确认商品价格与交易条件
+		</div><!--price结束-->
+		<div class="table_shop">
+		<div class="title">
+			<div  id="shop_name"><span>商品名</span></div>
+			<div >原价</div>
+			<div >优惠价</div>
+			<div>打折</div>	
+			<div id="input">数量</div>
+			<div >删除</div>
+		</div><br /><br />
+		<div class="trade_name">
+			<div id="shop_name">攀高捶背靠垫按摩器（蓝色）</div>
+			<div id="old_price">￥258.00</div>
+			<div id="new_price">￥129.00</div>	
+			<div>50折</div>
+			<div id="input"><input type="text" name="" value="1"/></div>
+			<div id="shop_del">删除</div>
+		</div><br /><br />
+		<div class="trade_name">
+			<div id="shop_name">邦托英国口语-美国口语训练系统（MP3）</div>
+			<div id="old_price">￥480.00</div>
+			<div id="new_price">￥292.90</div>
+			<div>60折</div>
+			<div id="input"><input type="text" name="" value="1"/></div>
+			<div>删除</div>
+		</div><br /><br />
+		<div class="trade_name">
+			<div id="shop_name">简.奥斯汀全集（DVD-9）（赠BBC产品目录.....</div>
+			<div id="old_price">￥138.00</div>
+			<div id="new_price">￥103.90</div>
+			<div>80折</div>
+			<div id="input"><input type="text" name="" value="1"/></div>
+			<div>删除</div>
+		</div><br /><br />
+		<div class="trade_name">
+			<div id="shop_name">继续挑选商品</div>
+			<div id="sum_price">￥527.40</div>
+			<div id="savaing_price">你共节省：￥348.60</div>	
+		</div>
+		</div><!--table_shop结束-->
+	
+		<div class="ture_price">
+			<div class="information">
+			<img src="img/images/addfav.gif" />&gt;&gt;确认商品价格与交易条件
+		    </div><!--information结束-->
+			<div class="infor_footer">
+			收件人：<input type="text" name="" value="" /><br /><br />
+			地&nbsp;&nbsp;&nbsp;址：<input type="text" name="" value="" /><span  class="adder">点击填写地址</span><br /><br />
+			电&nbsp;&nbsp;&nbsp;话：<input type="text" name="" value="" class="phone_area"/>-<input type="text" name="" value="" />-<input type="text" name="" value="" class="phone_extension"/>（区号-电话号码-分机）<br />
+			<input type="image" src="img/images/submit.gif"  alt="提交"  class="submit"/>
+		</div><!--infor_footer结束-->
+		</div><!--ture_price结束-->
+		
+		</div><!--shopping_cart结束-->
+		
+	  <div class="footer">
+			<iframe  frameborder="0" scrolling="0" src="footer.html" width="100%" height="100%"></iframe>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/help.css" />
+		<script>
+			$("dropdown").mouseover(function(){
+				$("hid").css({
+					"display":"block"
+				});
+				console.log("mouseover");
+			});
+			
+			$("hid").mouseover(function(){
+				$("hid").css({
+					"display":"none"
+				});
+				console.log("mouseout");
+			});
+		</script><!--j解决悬浮闪烁问题-->
+	</head>
+	<body>
+		<div>
+			<iframe  frameborder="0" scrolling="0" src="top.html" width="100%" height="100%"></iframe>
+		</div>
+		
+		<div class="help_3">
+		<div class="Intellectual_hall">
+			<img src="img/images/customer.jpg" />
+			<div class="bnt_img">
+				<div class="dropdown">
+					<div class="pesorn">
+			<a href="help_reg.html" target="_parent"><img src="img/images/reg.jpg" /></a>
+				</div>
+			<div class="hid">
+				<a href="#">点此认证</a><br />
+				<a href="#">认证中心</a><br />
+			</div>
+			</div><br />
+			<div class="dropdown">
+			<div class="pesorn">
+			<img src="img/images/buy.jpg" />
+			</div>
+				<div class="hid">
+				<a href="help_step.html">咨询</a><br />
+				<a href="#">投诉</a><br />
+				<a href="#">举报</a><br />
+				<a href="#">退款</a><br />
+			</div>
+			</div><br />
+			<div class="dropdown">
+				<div class="pesorn">
+			<a href="help.html"><img src="img/images/sale.jpg" /></a>
+				</div>
+			<div class="hid">
+				<a href="#">安全中心</a><br />
+				<a href="#">物流中心</a><br />
+				<a href="#">资金流动</a><br />
+				<a href="#">纠纷处理</a><br />
+			</div>
+			</div>
+			<br />
+			<div class="pesorn">
+			<img src="img/images/person.jpg" />
+			</div>
+			</div>
+		</div>
+		<div class="merchants_help">
+			<div class="help_top">知识堂首页&gt;&gt;商家帮助<br />
+			<hr class="hrset"/><br /></div>
+			<span class="step">
+			享受贵美网免费上网交易乐趣，您需要了解贵美网上交易流程和网上购物的四部曲：<br /><br />
+			<span class="step_2">网上安全交易流程如下：</span><br />
+			<img src="img/images/buy_sep1.jpg"/><br /><br />
+			<span class="step_2">客户交易演示四部曲：</span><br />
+			<img src="img/images/buy_sep2.jpg"/>
+			</span>
+		</div>
+		</div>
+	
+	    <div>
+			<iframe  frameborder="0" scrolling="0" src="footer.html" width="100%" height="100%"></iframe>
+		</div>
+	</body>
+</html>
+
