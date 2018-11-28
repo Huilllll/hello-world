@@ -1,0 +1,44 @@
+.electr_main{
+	position: relative;
+	width: 976px;
+	height: 650px;
+	margin: 0 auto;	
+	z-index: 1;
+	font-size: 12px;
+}
+
+.electr_list_ul{
+	position: relative;
+	z-index: 2;
+	margin-top: -120px;
+	margin-left: 50px;
+	
+}
+.font_li{
+	font-weight: bold;
+}
+.electr_list_ul li{
+	position: relative;
+	border-bottom: 1px dashed grey;
+	width: 220px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	
+}
+
+.list_main li{
+	width: 220px;
+	height: 130px;
+	float: left;
+	text-align: center;
+	
+}
+.input_li{
+	width: 220px;
+	height: 130px;
+	line-height: 130px;
+}
+.all_checked{
+	margin-top: -3px;
+}

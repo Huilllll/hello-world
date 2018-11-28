@@ -1,0 +1,75 @@
+.lenvo_main{
+	width: 976px;
+	height: 500px;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid;
+}
+.left{
+	margin-top: 15px;
+	float: left;
+}
+.fl_list{
+	width:350px;
+	float: left;
+}
+.fl_li li{
+	border: 1px solid gainsboro;
+	margin-right: 5px;
+	margin-top: 5px;
+	float: left;
+	list-style-type: none;
+}
+.img_li{
+	display: block;
+	width:350px;
+	margin-left: 40px;
+}
+.img{
+	float:left;
+}
+
+/*.hr_right{
+	width: 200px;
+	
+	}*/
+.right{
+	position: absolute;
+	/*border: 1px solid red;*/
+	width: 350px;
+	height:220px;
+	margin-top: 10px;
+	margin-left:390px;
+	}
+.right_s span{
+	margin-top: 10px;
+}
+.right_main{
+	float: left;
+	
+}
+.font_right{
+	margin-left: 10px;
+}
+.hr_right{
+	width: 300px;
+	border: 1px dashed gainsboro;
+}
+.logo_guimei{
+	border: 1px solid #EFE8CA;
+	background-color: #FFFFED;
+	width: 330px;
+	height: 40px;
+	font-size: 12px;
+	padding-top: 10px;
+}
+.logo_guimei img{
+	float: left;
+	margin-top: 10px;
+}
+.sp{
+	position: absolute;
+	margin-left: 160px;
+}
+

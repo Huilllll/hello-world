@@ -1,0 +1,107 @@
+.shopping_cart{
+	width: 980px;
+	height: 420px;
+	margin: 0 auto;
+	font-size: 12px;
+	font-family:"微软雅黑";
+	/*border: 1px solid red;*/
+}
+/*------------------------我的购物车*/
+.mian{
+	width: 980px;
+	height: 40px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+/*------------------------确认商品和交易条件*/
+.top_shoping{
+	margin-left: 50px;
+	word-spacing: 10px;
+}
+.price,.information{
+	width: 980px;
+	height: 30px;
+	border: 1px solid #F7D98C;
+	background-color: #F4E7B8;
+	border-radius: 5px;
+	line-height: 30px;
+	/*border: 1px solid red;*/
+}
+.price img,.information img{
+	margin-left: 10px;
+}
+/*---------------------------内容：商品名*/
+.table_shop{
+	width:970px;
+	height:152px;
+	float: left;
+	/*border: 1px solid red;*/
+	margin-top: 15px;
+	margin: 0 auto;
+	margin-left: 15px;
+}
+/*.trade_name{
+	float: left;
+	height:126px;
+	border: 1px solid red;
+}*/
+.title{
+	font-weight: bold;
+}
+.trade_name div,.title div{
+	width:100px;
+	height:20px;
+	float: left;
+	line-height: 20px;
+/*	border: 1px solid red;*/
+}
+#shop_name{
+	width:350px;
+	height:20px;
+}
+#input{
+	width: 182px;
+	height:20px;
+}
+#sum_price{
+	width:200px;
+	text-align: center;
+}
+#savaing_price{
+	width: 300px;
+	text-align: center;
+}
+#old_price{
+	color: grey;
+}
+#new_price{
+	color: red;
+}
+/*-----------------------------------补充您的收件地址*/
+
+.ture_price{
+	width: 980px;
+	height: 40px;
+	margin-top: 150px;
+	/*border: 1px solid red;*/
+}
+.infor_footer{
+	width: 750px;
+	height: 130px;
+	margin-top: 15px;
+	margin-left: 100px;
+	/*border: 1px solid red;*/
+}
+.adder{
+	font-weight: bold;
+}
+.phone_area,.phone_extension{
+	width: 40px;
+}
+
+.submit{
+	width: 60px;
+	height: 25px;
+	margin-top: 10px;
+	margin-left: 50px;
+}

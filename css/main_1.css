@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	/*border: 1px solid red;*/
+}
+.middle{
+	height: 660px;
+	width: 980px;
+	/*background-color: red;*/
+	background-image: url(../img/images/bg.gif);
+	margin: 0px auto;
+	/*border: 1px solid red;*/
+	
+}
+/*----------------------left*/
+.left,.mid,.right{
+	float: left;
+	/*border: 1px solid red;*/
+}
+/*.ad{
+	height:195px;
+	overflow: hidden;/*当你溢出div时自动填充
+}*/
+.left{
+	width: 196px;
+	height: 604px;
+	margin-top: 38px;
+	
+}
+.general_electric{
+	margin-top: 5px;
+	margin-left:3px
+}
+.first{
+	color:#FC9D66;
+	font-size: larger;
+	font-weight:bold;
+}
+.left a{
+	text-decoration: none;
+	padding-left: 15px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: black;
+}
+.first_a{
+	width: 180px;
+	line-height: 20px;
+}
+.book,.phone,.general_articles{
+	margin-top: 13px;
+}
+/*-------------------------------------------轮播图*/
+.mid{
+	width: 526px;
+	height: 635px;	
+	margin-left: 11px;
+	margin-top: 7px;
+	
+}
+.Sowing_mag{
+	width:526px;
+	height:196px;
+}
+#picBox{
+	width:526px;
+	height:196px;
+}
+/*-----------------------------------------九宫格*/
+.hot_sell{
+	width:526px ;
+	height: 411px;
+	margin-top: 26px;
+}
+.hot_list{
+	width:526px;
+	height: 410px;
+	
+}
+.hot_list li{
+	width: 163px;
+	height:130px;
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	clear: none;
+	padding-left: 10px;
+	margin-top: 8px;
+}
+.hot_li{
+	display: block;
+}
+.hot_list img{
+	border: 1px solid grey;
+	
+}
+/*------------------------------right*/
+.right{
+	float: right;
+	margin-top: 10px;
+	position: absolute;
+	margin-left: 750px;
+	
+}
+.show{
+	margin-top: 175px;
+}
+
+.show li{
+	margin-left: 23px;
+	list-style-type: none;
+}
+.show img{
+	border: 1px solid grey;
+	margin-top: 8px;
+	vertical-align: middle;
+}
+.show_li{
+	padding-left: 15px;
+}
+
+/*------------------------轮播按钮*/
+		

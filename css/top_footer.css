@@ -1,0 +1,110 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+
+}
+ /*<jsp:include page="top.html"></jsp:include> */
+/*<%@ include file="top.html" %>*/
+/*------------------------------------------------------头部*/
+.top{
+	height: 150px;
+	width: 1024px;
+	background-image: url(../img/images/h_bg.jpg);
+	margin: 0 auto;	
+}
+ul{
+	list-style-type: none;
+}
+.top_list{
+	float:right;
+	margin-right: 20px;
+	margin-top: 15px;
+	
+}
+.top_list li{
+	float: left;
+	margin-right: 20px;
+	/*padding-right: 20px;*/
+	
+}
+.top_list a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	
+}
+.shop{
+	/*position: absolute;*/
+
+	/*//图标*/
+   background: url(../img/images/icon.gif)no-repeat;
+   background-position: -6px -7px;
+   padding-left: 10px;
+}
+.help{
+	background: url(../img/images/icon.gif)no-repeat;
+   background-position: -47px -7px;
+   padding-left: 10px;
+}
+.shoucang{
+	background: url(../img/images/icon.gif)no-repeat;
+   background-position: -92px -5px;
+   padding-left: 10px;
+}
+.make_index{
+	background: url(../img/images/icon.gif)no-repeat;
+   background-position: -132px -5px;
+   padding-left: 10px;
+}
+p{
+	clear: right;
+	float: right;
+	margin-top:40px;
+	margin-right: 60px;
+}
+.bottom_list{
+	margin-left: 23px;
+}
+.bottom_list a{
+	text-decoration: none;	
+}
+#index{
+	letter-spacing: 16px;
+}
+#box{
+	letter-spacing: 16px;
+}
+.bottom_list li{
+	float: left;
+	width: 80px;
+	height: 34px;
+	clear: right;
+	margin-left: 3px;
+	line-height: 45px;
+	text-align: center;
+	
+}
+
+.bottom_list a{
+	text-decoration: none;
+}
+.bottom_list a:hover,.bottom_list a:link{
+	color: #0000FF;
+}
+.bottom_list a:active,.bottom_list a:visited{
+	color: black;
+}
+/*------------------------------------------------------底部*/
+.footer{
+	position:absolute;
+	width: 980px;
+	height: 150px;
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 185px;
+}
+
+hr{
+	margin-top: 5px;
+}

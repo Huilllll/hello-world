@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
+/*--------------------------------------------------------------------登陆*/
+.sign{
+	width: 976px;
+	margin: 0 auto;	
+
+}
+.sign_left{
+	margin-left: 95px;
+}
+.login_img{
+	margin-left: 35px;	
+}
+.bottom_left{
+	margin-left: 40px;
+}
+/*------------------------------------------右侧right*/
+.sign_ifame{
+	margin-top: -140px;	
+}
+.img_right_1{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0px -134px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.img_right_2{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0px -163px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.img_right_3{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0px -200px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.img_right_4{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0px -250px;
+	padding-left: 45px;
+	padding-bottom: 15px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.img_right_5{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0 -280px;
+	padding-left: 45px;
+	padding-bottom: 10px;
+	padding-top: 4px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.img_right_6{
+	
+	background: url(../img/images/icon.gif) no-repeat;
+	background-image: no-repeat;
+	background-position: 0 -320px;
+	padding-left: 45px;
+	padding-bottom: 10px;
+	padding-top: 4px;
+	line-height: 20px;
+	vertical-align: middle;	
+}
+.sign_right{
+	margin-left: 50px;
+	
+}
+.img_right{
+	line-height: 30px;
+}
+.now_reg{
+	margin-left: 40px;
+}
+
+#bottom_right{
+	width: 300px;
+	height:80px;
+	border: 1px solid grey;
+	background-color: #FDF7E7;
+}
+.cnt_right{
+	width: 250px;
+	height:20px;
+	margin-left: 20px;
+	margin-top: 12px;
+	border: 1px solid  grey;
+	background-color: white
+}
+
+.sign_right_border{
+	border: 1px solid gainsboro;
+	border-bottom: 0;
+	border-right: 0;
+	border-top: 0;
+}
+.vip_reg{
+	margin-left: 12px;
+}

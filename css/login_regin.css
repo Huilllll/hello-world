@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+}
+/*----------------------------------------------------------------注册*/
+.left_login{
+	width:400px;
+	height:500px;
+	/*margin-top: -250px;*/
+	margin-left: 15px;
+	/*border: 1px solid red;*/
+	display: block;
+	margin-top: 50px;	
+}
+.td_1{
+	float: left;
+	margin-left: 10px;
+	padding-left: 15px;
+}
+.td_2{
+	margin-left: 110px;
+}
+.img{
+	float: top;
+}
+.right_login{
+	margin-top: 40px;
+	margin-left: 200px;
+}
+.login_ifame
+{
+	margin-top: -150px;
+
+}
+.login{
+	width: 976px;
+	margin: 0 auto;	
+}

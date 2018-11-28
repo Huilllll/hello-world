@@ -1,0 +1,69 @@
+.help_3{
+	height: 550px;
+	width: 980px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.Intellectual_hall{
+	width: 115px;
+	height: 334px;
+	float: left;
+}
+.bnt_img{
+	margin-top: -360px;
+	margin-left: 10px;
+}
+.merchants_help{
+	border: 1px solid peru;
+	width: 784px;
+	height:547px;
+	float: left;
+	margin-left: 79px;
+}
+.help_top{
+	font-size: 25px;
+	font-family: "微软雅黑";
+	margin-left: 25px;
+	margin-top: 20px;
+}
+.step,.step img{
+	margin-left: 25px;
+	margin-top: 15px;
+}
+.hrset{
+	width:740px;
+	border-top: 2px solid #FDE4D1;
+	border-bottom: 1px solid #E2AAAA ;
+}
+.color,.hid a{
+	color: #FF9945;
+}
+.hid{
+	margin-top: 10px;
+}
+.hid a{
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 50px;
+	font-size: 13px;
+	
+}
+.hid{
+	width:784px;
+	height:80px;
+	display: none;/*下拉内容默认隐藏*/
+}
+.dropdown:hover .hid{
+	position: relative;
+	z-index: 100;
+	width:784px;
+	height:80px;
+	display: inline;/*鼠标移动上去的时候显示下拉菜单*/
+}
+.step_2{
+	margin-left: 25px;
+	font-weight: bold;
+}
+.pesorn{
+	margin-top: -15px;
+}
